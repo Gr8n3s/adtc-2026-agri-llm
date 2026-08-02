@@ -1,37 +1,37 @@
 {
-  "team_id": "your-team-id",
-  "domain": "coding_assistants",
+  "team_id": "TBD-register-on-adtf-portal",
+  "domain": "agriculture",
   "language_scope": ["en"],
-  "african_alpha_claim": false,
+  "african_alpha_claim": true,
   "budget_laptop_claim": true,
   "submitter": {
-    "name": "your-name",
-    "email": "your-email@domain.com",
-    "github_handle": "your-github"
+    "name": "Adenubi Greatness Ayomide",
+    "email": "adenubiayomide08@gmail.com",
+    "github_handle": "Gr8n3s"
   },
   "cross_disciplinary_pairing": {
-    "discipline": "education",
+    "discipline": "financial_inclusion",
     "load_bearing": true,
-    "description": "Brief description of how your model serves a real-world domain."
+    "description": "Market-price advisory (crop/livestock pricing, best time/place to sell) ties agricultural decisions directly to smallholder farmer income and credit decisions, not just agronomy Q&A."
   },
   "test_prompts": [
     {
       "prompt_id": "tp_001",
-      "prompt": "Write a Python function that reads a CSV file and returns the column with the highest mean value."
+      "prompt": "My cassava leaves are turning yellow and curling, and I'm in southwest Nigeria during the rainy season. What could be causing this and what should I do?"
     },
     {
       "prompt_id": "tp_002",
-      "prompt": "Explain the difference between a list and a tuple in Python, and give one example where each is the better choice."
+      "prompt": "I have 20 chickens and want to start a small poultry business with limited capital. What breed should I start with and what basic housing/feeding setup do I need?"
     }
   ],
   "model": {
-    "name": "SmolLM2-135M-Instruct-Q4_K_M",
+    "name": "Llama-3.2-3B-Instruct-Q4_K_M",
     "runtime": "llama.cpp",
     "quantization": "GGUF Q4_K_M",
-    "parameters_estimate": "135M",
+    "parameters_estimate": "3.21B",
     "packaging": "binary_bundle"
   },
   "_runtime": {
-    "model_path": "model/SmolLM2-135M-Instruct-Q4_K_M.gguf"
+    "model_path": "model/Llama-3.2-3B-Instruct-Q4_K_M.gguf"
   }
 }
